@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800;900&display=swap');
 
 body {
-    background-color: #050376;
+    background-color: #1b1b1b;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -10,7 +10,7 @@ nav {
     top: 0;
     left: 0;
     backdrop-filter: blur(10px) saturate(200%) brightness(70%);
-    color: #FDFD2E;
+    color: #fff;
     display: flex;
     height: 7vw;
     width: 100%;
@@ -177,6 +177,11 @@ nav h1 {
     .featured a:hover .play-button {
     opacity: 1;
     pointer-events: none;
+    }
+    
+    .featured .play-button i {
+    font-size: 5vw;
+    text-shadow: 0 0 100px #2c7ffc;
     }
     
     .featured .play-button i {
