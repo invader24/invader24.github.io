@@ -154,19 +154,7 @@
     width: 100%;
  }
  
- #ceiling
- {
-    position: absolute;
-    top: -16px;
-    height: 16px;
-    width: 100%;
-    background-image: url('../assets/ceiling.png');
-    background-repeat: repeat-x;
- 
-    -webkit-animation: animCeiling 481ms linear infinite;
-    animation: animCeiling 481ms linear infinite;
- }
- 
+
  #land
  {
     position: absolute;
